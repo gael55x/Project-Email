@@ -52,3 +52,21 @@ The project includes the following additional features:
 - **Archive and Unarchive**: Users can easily archive or unarchive received emails. When viewing an email in the Inbox, an "Archive" button is provided to archive the email. Similarly, when viewing an email in the Archive, an "Unarchive" button is available to unarchive the email. This functionality does not apply to emails in the Sent mailbox. Archiving or unarchiving an email involves sending a PUT request to the /emails/<email_id> endpoint. After performing the action, the user's inbox is reloaded.
 
 - **Reply**: Users can reply to an email directly from the email view. The email view presents a "Reply" button that, when clicked, takes the user to the email composition form. The form is pre-filled with the recipient field set to the original email's sender. The subject line is also pre-filled, with "Re: " added to the beginning if it doesn't already start with "Re: ". Additionally, the body of the email is pre-filled with a line like "On Jan 1, 2020, 12:00 AM, bob@gmail.com wrote:", followed by the original text of the email.
+
+## How to Run in VSC
+To run the Project-Auctions web app in Visual Studio Code (VSC), follow these steps:
+
+1. Make a virtual environment by executing the following command in your terminal:
+  - **python3 -m venv venv**
+
+2. Activate the virtual environment by running the appropriate command based on your operating system:
+   - **Windows**:
+      venv\Scripts\activate
+   - **MacOS/Linux**:
+      source venv/bin/activate
+      
+3. If you haven't installed virtualenv, use the following command:
+  pip install virtualenv
+  
+  
+Now you can proceed with setting up and running the Project-Auctions web app in VSC.
