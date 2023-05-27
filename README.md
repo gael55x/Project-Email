@@ -20,11 +20,11 @@ The default route in `mail/urls.py` loads the `index` function in `views.py`, wh
 
 ## Email Client Template
 
-The `inbox.html` template displays the user's email address, navigation buttons, and two main sections: `emails-view` and `compose-view`.
+The `inbox.html` template displays the user's email address, navigation buttons, and two main sections: `emails-view`, `email-content-view`, and `compose-view`.
 
 ## JavaScript Functionality
 
- The JavaScript file `inbox.js` attaches event listeners to buttons and controls the visibility of different views (`emails-view`, 'email-content-view', and `compose-view`).
+ The JavaScript file `inbox.js` attaches event listeners to buttons and controls the visibility of different views (`emails-view`, `email-content-view`, and `compose-view`).
 
 ## Email Loading
 
