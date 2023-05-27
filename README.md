@@ -1,4 +1,4 @@
-# Project-Mail
+# Project-eMail
 
 A front-end and back-end email system designed for sending and receiving emails through API calls. It's a single page application.
 
@@ -69,4 +69,4 @@ To run the Project-Auctions web app in Visual Studio Code (VSC), follow these st
   pip install virtualenv
   
   
-Now you can proceed with setting up and running the Project-Auctions web app in VSC.
+Now you can proceed with setting up and running the Project-eMail web app in VSC.
