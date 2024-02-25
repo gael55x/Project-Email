@@ -1,6 +1,6 @@
 # Project-eMail
 
-A front-end and back-end email system designed for sending and receiving emails through API calls. It's a single page application. All emails sent and received be stored exclusively within the user's database. They will not be transmitted to real email servers. Users have the freedom to select any desired email address (e.g., bob@gmail.com) and password for this project. It is not mandatory for the credentials chosen to be valid or associated with real email addresses.
+A full-stack email system designed for sending and receiving emails through API calls. It's a single page application. All emails sent and received be stored exclusively within the user's database. They will not be transmitted to real email servers. Users have the freedom to select any desired email address (e.g., bob@gmail.com) and password for this project. It is not mandatory for the credentials chosen to be valid or associated with real email addresses.
 
 ## Backend Framework
 
